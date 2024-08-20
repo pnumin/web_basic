@@ -42,7 +42,10 @@ section, section > div {
   justify-content: center;
   align-items: center;
 }
- 
+
+section > div {
+  margin: 10px;
+}
 button {
   background-color: royalblue;
   color: white;
