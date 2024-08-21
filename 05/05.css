@@ -1,0 +1,39 @@
+#imgDiv, #btDiv, #msg {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#imgDiv > div {
+  margin: 10px;
+}
+
+#msg {
+  border: 1px gray solid;
+  height: 40px;
+  width: 60%;
+  background-color: aliceblue;
+}
+
+h2, h3 {
+  margin: 10px;
+  font-size: medium;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ho {
+  color: brown;
+}
+
+#hx {
+  color: blue;
+}
+button {
+  margin: 5px;
+}

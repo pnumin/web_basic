@@ -5,22 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>웹제작기초-JS</title>
   <link rel='stylesheet' type='text/css' href='../css/comm.css'>
+  <link rel='stylesheet' type='text/css' href='./05.css'>
   <!-- 외부자바스크립트 -->
-  <script src='./04.js'></script>
+  <script src='./05.js'></script>
 </head>
 <body>
   <div id='content'>
     <header>
-      <h1>자바스크립트기초</h1>
+      <h1>자바스크립트 주사위게임</h1>
       <div>홈</div>
     </header>
     <main>
       <section>
-        <div>
-          <img src='../img/1.png' alt='1'>
+        <div id='imgDiv'>
+          <div>
+            <h2>Computer</h2>
+            <img src='../img/1.png' alt='1' id='com'>
+          </div>
+          <div>
+            <h2>User</h2>
+            <img src='../img/1.png' alt='1' id='user'>
+          </div>
         </div>
-        <div>
-          <button id='bt1'>주사위를 던져주세요.</button>
+        <div id='btDiv'>
+          <button>1 선택</button>
+          <button>2 선택</button>
+          <button>3 선택</button>
+          <button>4 선택</button>
+          <button>5 선택</button>
+          <button>6 선택</button>
+        </div>
+        <div id='msg'>
         </div>
       </section>
     </main>
