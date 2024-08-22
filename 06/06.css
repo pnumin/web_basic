@@ -1,0 +1,44 @@
+form {
+  width: 100%;
+}
+
+form > section, .divCol  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+form > section {
+  width: 100%;
+}
+
+.divCol {
+  box-sizing: border-box;
+  width: 40%;
+  padding: 10px;
+}
+
+select {
+  width: 80%;
+  height: 30px;
+}
+
+input {
+  width: 70%;
+  height: 30px;
+}
+
+#txt2 {
+  background-color: antiquewhite;
+}
+
+label {
+  width: 10%;
+  height: 30px;
+
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
