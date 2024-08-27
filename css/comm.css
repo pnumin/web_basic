@@ -19,6 +19,7 @@ header , main {
   border: 1px darkblue solid;
 
   display: flex;
+  box-sizing: border-box;
 }
 
 header {
@@ -32,7 +33,7 @@ header {
 }
 
 main { 
-  height: 400px;
+  height: 400px; 
 }
 
 section, section > div {
@@ -41,6 +42,7 @@ section, section > div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 section > div {

@@ -1,0 +1,58 @@
+form {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding : 20px;
+  box-sizing: border-box;
+}
+
+#numSec {
+  height: 150px;
+  background-color: aliceblue;
+}
+
+span {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: larger;
+  font-weight: bold;
+
+  color: white;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.sp0 {
+  background-color: brown;
+}
+
+.sp1 {
+  background-color:green;
+}
+
+.sp2 {
+  background-color: blue;
+}
+
+.sp3 {
+  background-color: purple;
+}
+
+.sp4 {
+  background-color: darkslategray;
+}
+
+.spplus {
+  color: black;
+  font-size: xx-large;
+}
